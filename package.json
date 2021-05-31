@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is backend of ecommerce eGro project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern",
+    "project",
+    "backend",
+    "api"
+  ],
+  "author": "kirish",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.4.0",
+    "@stripe/stripe-js": "^1.14.0",
+    "aws-sdk": "^2.888.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "node-fetch": "^2.6.1",
+    "req": "^0.1.4",
+    "save": "^2.4.0",
+    "shortid": "^2.2.16",
+    "slugify": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
